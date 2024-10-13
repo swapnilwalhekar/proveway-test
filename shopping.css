@@ -1,0 +1,175 @@
+.hidden {
+    display: none !important;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.bogo-container {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.fs-12 {
+    font-size: 12px !important;
+}
+
+.centered-div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.unit-div {
+    width: 70%;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-container::before,
+.title-container::after {
+    content: "";
+    flex: 1;
+    border: 0.9px solid #C8C8C8;
+    margin: 0 10px;
+}
+
+.title {
+    text-align: center;
+    color: #ff6b8a;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.offer {
+    margin: 20px 0;
+    border: 0.9px solid #C8C8C8;
+    height: 50px;
+    padding: 20px;
+    position: relative;
+}
+
+.offer-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.unit-info,
+.price-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.discount {
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 1px;
+    padding: 2px 4px;
+    background: #FF6B82;
+    color: #FFFFFF;
+}
+
+.current-price {
+    font-weight: bold;
+    color: #333;
+}
+
+.select-input {
+    width: 65.98px;
+    height: 25.31px;
+    border-radius: 2px;
+    margin: 4px 2px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    font-size: 12px;
+    color: #999;
+}
+
+.size-color-variant {
+    padding-left: 22px;
+    font-size: 12px;
+}
+
+.selected-background {
+    background-color: #ffe8ec;
+    height: 125px;
+    border: 2px solid #FF6B82
+}
+
+.variant-section {
+    padding: 10px;
+}
+
+.selected-offer-tag {
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    background-color: #ff6b8a;
+    color: white;
+    font-size: 12px;
+    padding: 2px 8px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.size-color {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.size-color select {
+    margin-left: 5px;
+}
+
+.delivery-info {
+    color: #ff6b8a;
+    font-weight: bold;
+}
+
+.centered-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.total-price {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.add-to-cart {
+    background-color: #ff6b8a;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #ff4d69;
+}
+
+.powered-by {
+    text-align: right;
+    padding: 10px;
+    font-size: 14px;
+    color: #00000066;
+    font-style: italic;
+}

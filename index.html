@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping</title>
+    <link rel="stylesheet" href="./shopping.css" />
+  </head>
+
+  <body>
+    <div class="bogo-container">
+      <div class="title-container">
+        <h2 class="title">YAY! It's BOGO</h2>
+      </div>
+
+      <!-- 1 Unit Option -->
+      <div class="offer">
+        <label for="one-unit" class="offer-label">
+          <div class="centered-div">
+            <div class="unit-div">
+              <div style="padding-bottom: 6px">
+                <input type="radio" name="unit" id="one-unit" value="1" />
+                <span class="current-price" style="padding: 0 5px">1 Unit</span>
+                <span class="discount">10% Off</span>
+              </div>
+
+              <div style="font-size: 12px; padding-left: 30px">
+                <span>Standard Price</span>
+              </div>
+            </div>
+            <div>
+              <span class="price-info">
+                <span class="current-price">$10.00 USD</span>
+                <span class="old-price">$24.00 USD</span>
+              </span>
+            </div>
+          </div>
+        </label>
+
+        <div class="hidden" id="one-unit-dropdown">
+          <div class="variant-section">
+            <div>
+              <div>
+                <label class="size-color-variant">Size</label>
+                <label class="size-color-variant" style="padding-left: 45px"
+                  >Color</label
+                >
+              </div>
+
+              <label class="fs-12">#1</label>
+              <select class="select-input">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select class="select-input">
+                <option>Colours</option>
+                <option>Black</option>
+                <option>White</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2 Unit Option -->
+      <div class="offer">
+        <label for="two-unit" class="offer-label">
+          <div class="centered-div">
+            <div class="unit-div">
+              <input type="radio" name="unit" id="two-unit" value="2" />
+              <span class="current-price" style="padding: 0 5px">2 Unit</span>
+              <span class="discount">20% Off</span>
+            </div>
+            <div>
+              <span class="price-info">
+                <span class="current-price">$18.00 USD</span>
+                <span class="old-price">$24.00 USD</span>
+              </span>
+            </div>
+            <span class="selected-offer-tag">Most Popular</span>
+          </div>
+        </label>
+
+        <div class="hidden" id="two-unit-dropdown">
+          <div class="variant-section">
+            <div>
+              <div>
+                <label class="size-color-variant">Size</label>
+                <label class="size-color-variant" style="padding-left: 45px"
+                  >Color</label
+                >
+              </div>
+
+              <label class="fs-12">#1</label>
+              <select class="select-input">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select class="select-input">
+                <option>Black</option>
+                <option>Red</option>
+                <option>Blue</option>
+              </select>
+            </div>
+
+            <div>
+              <label class="fs-12">#2</label>
+              <select class="select-input">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select class="select-input">
+                <option>Colour</option>
+                <option>Black</option>
+                <option>Blue</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3 Unit Option -->
+      <div class="offer">
+        <label for="three-unit" class="offer-label">
+          <div class="centered-div">
+            <div class="unit-div">
+              <input type="radio" name="unit" id="three-unit" value="3" />
+              <span class="current-price" style="padding: 0 5px">3 Unit</span>
+              <span class="discount">30% Off</span>
+            </div>
+            <div>
+              <span class="price-info">
+                <span class="current-price">$24.00 USD</span>
+                <span class="old-price">$24.00 USD</span>
+              </span>
+            </div>
+          </div>
+        </label>
+
+        <div class="size-color hidden" id="three-unit-dropdown">
+          <div class="variant-section">
+            <div>
+              <div>
+                <label class="size-color-variant">Size</label>
+                <label class="size-color-variant" style="padding-left: 45px"
+                  >Color</label
+                >
+              </div>
+
+              <label class="fs-12">#1</label>
+              <select class="select-input">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select class="select-input">
+                <option>Black</option>
+                <option>Red</option>
+                <option>White</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="centered-section">
+        <p class="delivery-info">Free Delivery</p>
+        <p class="total-price">
+          Total: <span id="total-price">$10.00 USD</span>
+        </p>
+      </div>
+
+      <button class="add-to-cart">+ Add to Cart</button>
+      <div class="powered-by">@ Powered by Pumper</div>
+    </div>
+
+    <script src="./Shopping.js"></script>
+  </body>
+</html>
