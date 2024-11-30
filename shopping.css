@@ -154,11 +154,11 @@ body {
 .add-to-cart {
     background-color: #ff6b8a;
     color: white;
-    padding: 10px;
+    padding: 11px;
     width: 100%;
     border: none;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 17px;
     cursor: pointer;
 }
 

@@ -1,3 +1,4 @@
+// javascript code here
 const radioButtons = document.querySelectorAll('input[name="unit"]');
 const totalPriceElement = document.getElementById("total-price");
 
