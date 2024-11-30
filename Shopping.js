@@ -10,9 +10,16 @@ const threeUnitOffer = document.querySelector(
 const oneUnitDropdown = document.getElementById("one-unit-dropdown");
 const twoUnitDropdown = document.getElementById("two-unit-dropdown");
 const threeUnitDropdown = document.getElementById("three-unit-dropdown");
+const addToCart = document.getElementsByClassName("add-to-cart");
 
 radioButtons.forEach((radio) => {
   radio.addEventListener("change", handleRadioChange);
+});
+
+Array.from(addToCart).forEach((button) => {
+  button.addEventListener("click", function () {
+    alert("Cart added successfully");
+  });
 });
 
 function handleRadioChange() {
